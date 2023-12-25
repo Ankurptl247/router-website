@@ -28,6 +28,208 @@
   color: #61dafb;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
+
+
+.back{
+  background-position: center;
+  background-size: cover;
+}
+.bg-1{
+  background-image: url(../public/img/1-home.jpg);
+}
+.bg-2{
+  background-image: url(../public/img/7-home.jpg);
+}
+.bg-3{
+  background-image: url(../public/img/1-about.jpg);
+}
+.bg-4{
+  background-image: url(../public/img/1-services.jpg);
+}
+.bg-5{
+  background-image: url(../public/img/1-about.jpg);
+}
+.bg-6{
+  background-image: url(../public/img/2-services.jpg);
+}
+.bg-7{
+  background-image: url(../public/img/1-contact.jpg);
+}
+
+.social-icon{
+  display: flex;
+  justify-content: space-between;
+}
+.social-icon span button{
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color:#198754;
+  border: none;
+  color: white;
+
+}
+.social-icon button:hover{
+  background-color: #000000;
+  transition: 0.5s;
+}
+.heading{
+  font-size: 5vw;
+  font-family: 'DM Sans', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.small-heading{
+  font-size: 26px;
+  font-family: 'DM Sans', sans-serif;
+  color: #020202;
+  font-weight: 400;
+}
+.article{
+  font-size: 3.7vw;
+  font-family: 'DM Sans', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+}
+.black-heading{
+  font-size: 8vmin;
+  font-family: 'DM Sans', sans-serif;
+  color: #ffffff;
+}
+.small-paragraph{
+  font-size: 2.4vmin;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+}
+.paragraph{
+  font-size: 3.4vmin;
+  font-weight: 400;
+  font-family: 'DM Sans', sans-serif;
+  line-height: 1.7;
+  color: #000000;
+}
+.hr{
+  border: 1px solid #198754;
+  width: 100px;
+}
+.client{
+  height: 55px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #d1e7dd;
+  color: black;
+}
+.client:hover{
+  color: white;
+  background-color: #0c4d2e;
+  border: 1px solid #0c4d2e;
+  transition: 0.5s;
+}
+.about{
+  height: 55px;
+  width: 230px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  background-color: white;
+  color: black;
+}
+.service{
+  height: 55px;
+  width: 230px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  background-color:#187047 ;
+  color: white;
+  border: none;
+}
+.touch{
+  height: 60px;
+  width: 200px;
+  border: 2px solid rgb(250, 246, 246);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #01a3b2;
+  color: white;
+}
+.touch:hover{
+  background-color: #0c4d2e;
+  color: white;
+  transition: 0.6s;
+  border: 1px solid #0c4d2e;
+}
+.service:hover{
+  background-color: #0c4d2e;
+  color: white;
+  transition: 0.6s;
+}
+.about:hover{
+  background-color: #0c4d2e;
+  color: white;
+  transition: 0.6s;
+  border: 1px solid #0c4d2e;
+}
+.nav-font-family{
+  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.h50{
+  height: 50px;
+}
+.h60{
+  height: 60px;
+}
+.h70{
+  height: 70px;
+}
+.h80{
+  height: 80px;
+}
+.h90{
+  height: 90px;
+}
+.h100{
+  height: 100px;
+}
+.h100{
+  height: 100px;
+}
+.h110{
+  height: 110px;
+}
+.h120{
+  height: 120px;
+}
+.h140{
+  height: 140px;
+}
+.h150{
+  height: 150px;
+}
+.h450{
+  height: 450px;
+}
+.h500{
+  height: 500px;
+}
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +237,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@media (max-width:500px) {
+  
+  .heading{
+    font-size: 6vw;
+  }
+  .article{
+    font-size: 5.7vmin;
+  }
+  .about{
+    height: 55px;
+    width: 450px;
+  }
+  .service{
+    height: 55px;
+    width: 450px;
+  }
+  
 }
